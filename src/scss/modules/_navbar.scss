@@ -1,7 +1,84 @@
-* {
-    font-family: 'Courgette', cursive;
-}
-
 body {
     margin: 0;
+    background-color: black;
+}
+
+// Carousel
+.carousel {
+    margin: 0;
+}
+
+// Carousel Image
+.carousel-item img {
+    opacity: 10%;
+}
+
+// NavBar
+.nav {
+    position: fixed;
+    z-index: 1;
+    left: 13.8%;
+}
+
+// Nav Li
+.nav-item {
+    margin-top: 80px;
+}
+
+// Nav Logo
+.nav img {
+    margin: 50px;
+}
+
+// Nav Link
+.nav-link {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    &:hover {
+        background-color: #DD4A46;
+        color: white;
+    }
+}
+
+// Carousel Button Change Content
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    width: 100px;
+}
+
+// Carousel Caption
+.carousel-caption {
+    margin-bottom: 20em;
+    margin-right: 2em;
+}
+
+// Carousel Title
+.carousel-caption h5 {
+    font-family: 'Courgette', cursive;
+    margin-bottom: 1.5em;
+    font-size: 70px;
+    white-space: pre-line;
+}
+
+// Carousel Button
+.carousel-caption button {
+    font-size: 14px;
+    margin-top: 0.5em;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+// Carousel Indicators
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
