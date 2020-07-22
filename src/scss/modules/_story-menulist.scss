@@ -1,12 +1,66 @@
 .bottomDecoration {
-    img {
-        margin-top: -11.5px;
-        margin-right: -4.5px;
-        background-color: #171718;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(../../chef/images/bottom_decoration_img.png);
+    width: 100%;
+    height: 15px;
+}
+
+.s1-border {
+    border: 1px solid lightgrey;
+    border-bottom: none;
+}
+
+.section1 {
+    background-image: url(../../chef/images/main_bg.jpg);
+}
+
+.section1 .container {
+    background-color: white;
+}
+
+.section1 .container h1 {
+    font-family: "Courgette", cursive;
+}
+
+.section1 .container h1 span {
+    font-size: 50px;
+}
+
+.menu1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
+
+.menuList {
+    div {
+        margin-left: 20px;
+    }
+    border-right: 1px solid lightgray;
+    a {
+        font-family: "Courgette", cursive;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    i:hover {
+        color: #dc3545;
+        cursor: pointer;
     }
 }
 
-.imageStoryMenu img {
-    width: 100%;
-    margin-top: -10px;
+.menu1-price {
+    background-color: #cdcdcd;
+    padding: 3px 10px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: -30px;
+    color: #dc3545;
+    font-weight: bold;
 }
