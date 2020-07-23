@@ -9740,12 +9740,12 @@ body {
   height: 15px;
 }
 
-.section-menuList-border {
-  border: 1px solid lightgrey;
-}
-
 .section-menuList {
   background-image: url(../../chef/images/main_bg.jpg);
+}
+
+.section-menuList-border {
+  border: 1px solid lightgrey;
 }
 
 .section-menuList .container {
@@ -9812,5 +9812,73 @@ body {
 
 .chef-title span {
   font-size: 60px;
+}
+
+.section-book {
+  background-image: url(../../chef/images/main_bg.jpg);
+}
+
+.section-book-border {
+  border: 1px solid lightgrey;
+}
+
+.section-book .container {
+  background-color: white;
+}
+
+.section-book .container h1 {
+  font-family: "Courgette", cursive;
+}
+
+.section-book .container h1 span {
+  font-size: 50px;
+}
+
+.form-table {
+  background-image: url(../../chef/images/book_table_bg.jpg);
+  border-radius: 10px;
+}
+
+.number {
+  font-size: 30px;
+}
+
+.form input,
+select {
+  border-radius: 15px;
+  border: none;
+  padding: 10px 10px;
+  margin: 5px;
+  outline: none;
+}
+
+.form input::placeholder {
+  color: black;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.blog img {
+  border-radius: 20px;
+  border: 5px solid lightgray;
+}
+
+.blog-info {
+  background-color: #dc3545;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  padding: 10px 30px;
+  bottom: 30%;
+  margin: auto;
+  left: 12.5%;
+}
+
+.blog-info span {
+  font-size: 30px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=app.css.map */

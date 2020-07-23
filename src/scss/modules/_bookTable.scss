@@ -1,0 +1,75 @@
+// Background Section Book
+.section-book {
+    background-image: url(../../chef/images/main_bg.jpg);
+}
+
+// Section Book Border
+.section-book-border {
+    border: 1px solid lightgrey;
+}
+
+// Section Book Container
+.section-book .container {
+    background-color: white;
+}
+
+// Font Title Section Book
+.section-book .container h1 {
+    font-family: "Courgette", cursive;
+}
+
+.section-book .container h1 span {
+    font-size: 50px;
+}
+
+// Background Form Table
+.form-table {
+    background-image: url(../../chef/images/book_table_bg.jpg);
+    border-radius: 10px;
+}
+
+// Number Form
+.number {
+    font-size: 30px;
+}
+
+// Form Table Input, Select
+.form input,
+select {
+    border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    margin: 5px;
+    outline: none;
+}
+
+// Change Color Placeholder Input Form Table
+.form input::placeholder {
+    color: black;
+}
+
+// Button Bottom Form Table
+.btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.blog img {
+    border-radius: 20px;
+    border: 5px solid lightgray;
+}
+
+.blog-info {
+    background-color: #dc3545;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    padding: 10px 30px;
+    bottom: 30%;
+    margin: auto;
+    left: 12.5%;
+    span {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
