@@ -2,8 +2,8 @@
     border-bottom: 1px solid lightgray;
 }
 
-.section-chef img {
-    cursor: pointer;
+.section-chef {
+    background-image: url(../../chef/images/team_background.jpg);
 }
 
 .chef-title {
@@ -12,7 +12,7 @@
         color: white;
     }
     span {
-        font-size: 60px;
+        font-size: 60px; 
     }
 }
 

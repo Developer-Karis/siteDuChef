@@ -9682,7 +9682,6 @@ body {
 .nav {
   position: fixed;
   z-index: 1;
-  top: 0;
 }
 
 .nav-item {
@@ -9814,8 +9813,8 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.section-chef img {
-  cursor: pointer;
+.section-chef {
+  background-image: url(../../chef/images/team_background.jpg);
 }
 
 .chef-title h1 {
