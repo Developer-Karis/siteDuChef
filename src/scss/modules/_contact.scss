@@ -1,0 +1,20 @@
+.section-contact {
+    background-image: url(../../chef/images/main_bg.jpg);
+}
+
+.contact {
+    background-color: #dc3545;
+    border-radius: 15px;
+    white-space: pre-line;
+    width: 40%;
+    i {
+        font-size: 50px;
+    }
+    p {
+        margin-top: 20px;
+        color: white;
+    }
+    hr {
+        margin-top: -20px;
+    }
+}

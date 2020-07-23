@@ -9665,6 +9665,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: black;
@@ -9678,7 +9682,7 @@ body {
 .nav {
   position: fixed;
   z-index: 1;
-  margin-top: 10px;
+  top: 0;
 }
 
 .nav-item {
@@ -9686,6 +9690,7 @@ body {
 }
 
 .nav img {
+  margin-top: 20px;
   margin: 20px;
   padding: 0px 20px;
 }
@@ -9766,6 +9771,10 @@ body {
   border-radius: 50%;
   border: 5px solid lightgray;
   margin-top: 10px;
+}
+
+.menu1 .card-body {
+  border: none;
 }
 
 .menuList {
@@ -9943,5 +9952,61 @@ select {
   border-radius: 50%;
   border: 5px solid lightgray;
   margin-left: -30px;
+}
+
+.section-contact {
+  background-image: url(../../chef/images/main_bg.jpg);
+}
+
+.contact {
+  background-color: #dc3545;
+  border-radius: 15px;
+  white-space: pre-line;
+  width: 40%;
+}
+
+.contact i {
+  font-size: 50px;
+}
+
+.contact p {
+  margin-top: 20px;
+  color: white;
+}
+
+.contact hr {
+  margin-top: -20px;
+}
+
+.section-footer {
+  background-image: url(../../chef/images/footer_background.jpg);
+}
+
+.section-footer img {
+  margin: 3px;
+  margin-top: 8px;
+}
+
+.section-footer a {
+  padding: 5px 13px;
+  background-color: #dc3545;
+  border: 1px solid lightgray;
+  border-radius: 35px;
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-bottom-decoration {
+  position: relative;
+  background-image: url(../../chef/images/footer_bottom_decoration_img.png);
+  width: 100%;
+  height: 15px;
+}
+
+.bottom-footer {
+  height: 100px;
+  background-color: #dc3545;
 }
 /*# sourceMappingURL=app.css.map */

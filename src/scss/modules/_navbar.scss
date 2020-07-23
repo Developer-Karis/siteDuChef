@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: black;
@@ -13,18 +17,23 @@ body {
 .nav {
     position: fixed;
     z-index: 1;
-    margin-top: 10px;
+    top: 0;
 }
 
 // Nav Li
 .nav-item {
     margin-top: 40px;
+    // background-color: black;
+    // height: 55px;
 }
 
 // Nav Logo
 .nav img {
+    margin-top: 20px;
     margin: 20px;
     padding: 0px 20px;
+    // background-color: black;
+    // border: 1px solid white;
 }
 
 // Nav Link
