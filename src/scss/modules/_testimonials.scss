@@ -1,0 +1,20 @@
+.section-testimonials {
+    background-image: url(../../chef/images/testimonials_background.jpg);
+}
+
+.card {
+    background: none;
+}
+
+.card-body {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.img-testi {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    margin-left: -30px;
+}
