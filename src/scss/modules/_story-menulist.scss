@@ -1,40 +1,33 @@
-.bottomDecoration {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-image: url(../../chef/images/bottom_decoration_img.png);
-    width: 100%;
-    height: 15px;
-}
-
-.s1-border {
+.section-menuList-border {
     border: 1px solid lightgrey;
-    border-bottom: none;
 }
 
-.section1 {
+.section-menuList {
     background-image: url(../../chef/images/main_bg.jpg);
 }
 
-.section1 .container {
+.section-menuList .container {
     background-color: white;
 }
 
-.section1 .container h1 {
+.section-menuList .container h1 {
     font-family: "Courgette", cursive;
 }
 
-.section1 .container h1 span {
+.section-menuList .container h1 span {
     font-size: 50px;
 }
 
+// Menu1
 .menu1 img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     border: 5px solid lightgray;
+    margin-top: 10px;
 }
 
+// Menu List
 .menuList {
     div {
         margin-left: 20px;
@@ -55,6 +48,7 @@
     }
 }
 
+// Menu Price
 .menu1-price {
     background-color: #cdcdcd;
     padding: 3px 10px;
