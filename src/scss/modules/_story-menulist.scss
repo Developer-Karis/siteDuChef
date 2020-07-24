@@ -19,49 +19,49 @@
 }
 
 // Menu1
-.menu1 img {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    border: 5px solid lightgray;
-    margin-top: 10px;
-}
-
-.menu1 .card-body {
-    border: none;
-}
-
-// Menu List
-.menuList {
-    .nav-link-menu i {
-        font-size: 50px;
+.menu {
+    img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 5px solid lightgray;
+        margin-top: 10px;
     }
-    div {
-        margin-left: 20px;
-    }
-    border-right: 1px solid lightgray;
-    a {
-        font-family: "Courgette", cursive;
-        font-size: 30px;
-        text-decoration: none;
-        color: black;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    i:hover {
-        color: #dc3545;
-        cursor: pointer;
+    p {
+        white-space: pre-line;
     }
 }
 
 // Menu Price
-.menu1-price {
+.menu-price {
     background-color: #cdcdcd;
     padding: 3px 10px;
     height: 30px;
-    margin-top: 60px;
-    margin-left: -30px;
     color: #dc3545;
     font-weight: bold;
+}
+
+.section-menuList .nav-link {
+    color: black;
+    background: none;
+    font-family: "Courgette", cursive;
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    i {
+        font-size: 50px;
+        margin: 5px;
+        color: #CCCCCC;
+    }
+}
+
+.section-menuList .nav-pills .nav-link.active {
+    background: none;
+    color: black;
+    border-right: 4px solid #dc3545;
+    i {
+        color: #dc3545;
+    }
 }

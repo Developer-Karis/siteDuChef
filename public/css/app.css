@@ -7807,23 +7807,28 @@ body {
   margin: 0;
   background-color: black; }
 
-.carousel-item img {
-  opacity: 20%;
-  height: 100vh; }
+.banner-carousel {
+  background-image: url(../../chef/images/banner1.jpg); }
 
-.nav {
+nav {
   position: fixed;
   z-index: 1; }
 
 .nav-item {
-  margin-top: 40px; }
+  margin-top: 40px;
+  height: 55px;
+  background-color: black; }
 
 .nav img {
   margin-top: 20px;
-  margin: 20px;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+  border: 1px solid white;
+  background-color: black; }
 
 .nav-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   padding: 15px 25px;
   font-size: 15px;
   color: white;
@@ -7835,7 +7840,7 @@ body {
     color: white; }
 
 .carousel-caption {
-  margin-bottom: 7em;
+  margin-bottom: 6em;
   margin-right: 2em; }
 
 .carousel-caption h5 {
@@ -7846,7 +7851,6 @@ body {
 
 .carousel-caption button {
   font-size: 15px;
-  margin-top: 0.5em;
   padding: 10px 20px;
   border-radius: 30px;
   margin: 10px; }
@@ -7855,7 +7859,7 @@ body {
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  margin-bottom: 40px; }
+  margin-bottom: 30px; }
 
 .bottomDecoration {
   position: absolute;
@@ -7880,42 +7884,42 @@ body {
 .section-menuList .container h1 span {
   font-size: 50px; }
 
-.menu1 img {
+.menu img {
   width: 110px;
   height: 110px;
   border-radius: 50%;
   border: 5px solid lightgray;
   margin-top: 10px; }
+.menu p {
+  white-space: pre-line; }
 
-.menu1 .card-body {
-  border: none; }
-
-.menuList {
-  border-right: 1px solid lightgray; }
-  .menuList .nav-link-menu i {
-    font-size: 50px; }
-  .menuList div {
-    margin-left: 20px; }
-  .menuList a {
-    font-family: "Courgette", cursive;
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-  .menuList i:hover {
-    color: #dc3545;
-    cursor: pointer; }
-
-.menu1-price {
+.menu-price {
   background-color: #cdcdcd;
   padding: 3px 10px;
   height: 30px;
-  margin-top: 60px;
-  margin-left: -30px;
   color: #dc3545;
   font-weight: bold; }
+
+.section-menuList .nav-link {
+  color: black;
+  background: none;
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  color: black;
+  text-transform: capitalize;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray; }
+  .section-menuList .nav-link i {
+    font-size: 50px;
+    margin: 5px;
+    color: #CCCCCC; }
+
+.section-menuList .nav-pills .nav-link.active {
+  background: none;
+  color: black;
+  border-right: 4px solid #dc3545; }
+  .section-menuList .nav-pills .nav-link.active i {
+    color: #dc3545; }
 
 .section-chef {
   background-image: url(../../chef/images/team_background.jpg); }
