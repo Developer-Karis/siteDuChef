@@ -43,6 +43,12 @@ select {
     outline: none;
 }
 
+.form {
+    select {
+        background-color: white;
+    }
+}
+
 // Change Color Placeholder Input Form Table
 .form input::placeholder {
     color: black;
