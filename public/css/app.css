@@ -7892,6 +7892,8 @@ body {
 
 .menuList {
   border-right: 1px solid lightgray; }
+  .menuList .nav-link-menu i {
+    font-size: 50px; }
   .menuList div {
     margin-left: 20px; }
   .menuList a {
@@ -7901,7 +7903,7 @@ body {
     color: black;
     display: flex;
     justify-content: center;
-    flex-direction: row; }
+    flex-direction: column; }
   .menuList i:hover {
     color: #dc3545;
     cursor: pointer; }
@@ -7914,9 +7916,6 @@ body {
   margin-left: -30px;
   color: #dc3545;
   font-weight: bold; }
-
-.section-chef .container .row img {
-  border-bottom: 1px solid lightgray; }
 
 .section-chef {
   background-image: url(../../chef/images/team_background.jpg); }
@@ -7941,8 +7940,13 @@ body {
 .overlay i {
   margin: 5px; }
 
-.section-chef .container:hover .overlay {
-  height: 45%; }
+.test1:hover .overlay {
+  height: 40%; }
+
+.test1 {
+  margin: 15px; }
+  .test1 img {
+    width: 100%; }
 
 .text {
   white-space: nowrap;
@@ -7958,7 +7962,7 @@ body {
   background-color: white;
   height: 1px;
   margin-top: 10px;
-  width: 220px; }
+  width: 230px; }
 
 .section-book {
   background-image: url(../../chef/images/main_bg.jpg); }
