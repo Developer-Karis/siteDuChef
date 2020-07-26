@@ -2,17 +2,6 @@
     background-image: url(../../chef/images/team_background.jpg);
 }
 
-// Chef Title
-.chef-title {
-    h1 {
-        font-family: "Courgette", cursive;
-        color: white;
-    }
-    span {
-        font-size: 60px;
-    }
-}
-
 // Animation Hover Image Teams
 .overlay {
     position: absolute;
@@ -31,16 +20,12 @@
 }
 
 .test1:hover .overlay {
-    height: 40%;
+    height: 30%;
 }
 
 .test1 {
-    margin: 15px;
     &:hover {
         cursor: pointer;
-    }
-    img {
-        width: 100%;
     }
 }
 
@@ -61,3 +46,9 @@
     margin-top: 10px;
     width: 230px;
 }
+
+// Media Query Contact
+
+// sm >= 576 px
+// md >= 768 px
+// lg >= 992 px

@@ -70,10 +70,10 @@ select {
     border-radius: 10px;
     color: white;
     position: absolute;
-    padding: 10px 30px;
+    padding: 0 30px;
     bottom: 30%;
     margin: auto;
-    left: 12.5%;
+    left: 10%;
     span {
         font-size: 30px;
         font-weight: bold;
@@ -94,5 +94,23 @@ select {
     }
     img {
         width: 100%;
+    }
+}
+
+// Media Query Book Table
+
+// sm >= 576 px
+// md >= 768 px
+// lg >= 992 px
+
+@media (max-width: 768px) {
+    .blog-info {
+        bottom: 45%;
+        right: 10%;
+    }
+    .number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

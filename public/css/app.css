@@ -9815,7 +9815,7 @@ body {
 }
 
 .menu-price {
-  background-color: #cdcdcd;
+  background-color: #efefef;
   padding: 3px 10px;
   height: 30px;
   color: #dc3545;
@@ -9849,17 +9849,21 @@ body {
   color: #dc3545;
 }
 
+@media (max-width: 768px) {
+  .section-menuList .nav-link,
+  .section-menuList .nav-link.active {
+    border: 1px solid #c1c1c1;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-menuList .menu.col-sm-6 {
+    width: 30%;
+  }
+}
+
 .section-chef {
   background-image: url(../../chef/images/team_background.jpg);
-}
-
-.chef-title h1 {
-  font-family: "Courgette", cursive;
-  color: white;
-}
-
-.chef-title span {
-  font-size: 60px;
 }
 
 .overlay {
@@ -9879,19 +9883,11 @@ body {
 }
 
 .test1:hover .overlay {
-  height: 40%;
-}
-
-.test1 {
-  margin: 15px;
+  height: 30%;
 }
 
 .test1:hover {
   cursor: pointer;
-}
-
-.test1 img {
-  width: 100%;
 }
 
 .text {
@@ -9973,10 +9969,10 @@ select {
   border-radius: 10px;
   color: white;
   position: absolute;
-  padding: 10px 30px;
+  padding: 0 30px;
   bottom: 30%;
   margin: auto;
-  left: 12.5%;
+  left: 10%;
 }
 
 .blog-info span {
@@ -10002,6 +9998,18 @@ select {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .blog-info {
+    bottom: 45%;
+    right: 10%;
+  }
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .section-testimonials {
   background-image: url(../../chef/images/testimonials_background.jpg);
 }
@@ -10016,11 +10024,36 @@ select {
 }
 
 .img-testi {
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
+  margin-left: -3px;
   border: 5px solid lightgray;
-  margin-left: -30px;
+}
+
+.chef-title h1 {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+.chef-title span {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .chef-title img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-testimonials .card {
+    border: none;
+  }
+  .img-testi {
+    margin-left: 50px;
+  }
 }
 
 .section-contact {
@@ -10031,11 +10064,10 @@ select {
   background-color: #dc3545;
   border-radius: 15px;
   white-space: pre-line;
-  width: 40%;
 }
 
 .contact i {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .contact p {
@@ -10047,9 +10079,21 @@ select {
   margin-top: -20px;
 }
 
-@media (min-width: 300px) and (max-width: 576px) {
-  .contact {
-    width: 100%;
+@media (min-width: 768px) {
+  .section-contact .col-sm-4 {
+    margin-left: 33.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-contact .col-sm-4 {
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-contact .chef-title img {
+    width: 50%;
   }
 }
 

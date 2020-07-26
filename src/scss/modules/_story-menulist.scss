@@ -34,7 +34,7 @@
 
 // Menu Price
 .menu-price {
-    background-color: #cdcdcd;
+    background-color: #efefef;
     padding: 3px 10px;
     height: 30px;
     color: #dc3545;
@@ -72,5 +72,15 @@
 // md >= 768 px
 // lg >= 992 px
 
-@media (min-width: 300px) and (max-width: 576px) {
+@media (max-width: 768px) {
+    .section-menuList .nav-link,
+    .section-menuList .nav-link.active {
+        border: 1px solid #c1c1c1;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-menuList .menu.col-sm-6 {
+        width: 30%;
+    }
 }
