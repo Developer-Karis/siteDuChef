@@ -46,14 +46,14 @@
     background: none;
     font-family: "Courgette", cursive;
     font-size: 30px;
-    color: black;
+    color: black !important;
     text-transform: capitalize;
     border-bottom: 1px solid lightgray;
     border-right: 1px solid lightgray;
     i {
         font-size: 50px;
         margin: 5px;
-        color: #CCCCCC;
+        color: #cccccc;
     }
 }
 
@@ -64,4 +64,13 @@
     i {
         color: #dc3545;
     }
+}
+
+// Media Query Menu List
+
+// sm >= 576 px
+// md >= 768 px
+// lg >= 992 px
+
+@media (min-width: 300px) and (max-width: 576px) {
 }

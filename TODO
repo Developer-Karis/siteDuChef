@@ -1,7 +1,8 @@
 
 Site du Chef :
   ✔ Nav Bar, Carousel @done(20-07-22 11:25)
-    ☐ Gérer la NavBar en Fixed avec un Background Noir
+    ✘ Mettre un Background derrière le Carousel @cancelled(20-07-25 17:23)
+    ✔ Gérer la NavBar avec un Background Noir @done(20-07-25 13:34)
   ✔ Story, Menu List @done(20-07-22 23:54)
     ✔ Gérer les différents Menus en changant les images, textes et prix. @done(20-07-24 15:58)
   ✔ Meet Our Chef @done(20-07-23 10:47)
@@ -10,3 +11,4 @@ Site du Chef :
   ✔ Client Testimonials @done(20-07-23 13:41)
   ✔ Contact @done(20-07-23 14:16)
   ✔ Footer @done(20-07-23 15:04)
+  ✘ Mettre tout le Site en Responsive @cancelled(20-07-25 17:23)

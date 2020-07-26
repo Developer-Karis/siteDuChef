@@ -2,44 +2,65 @@
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
     background-color: black;
 }
 
-.banner-carousel {
-    background-image: url(../../chef/images/banner1.jpg);
+.navbar-toggle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar {
+    padding: 0;
 }
 
 // NavBar
-nav {
+.navbar-nav {
     position: fixed;
     z-index: 1;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
 
-// Nav Li
+// Nav Item
 .nav-item {
-    margin-top: 40px;
-    height: 55px;
-    background-color: black;
+    margin-top: 25px;
 }
 
 // Nav Logo
-.nav img {
+.navbar-nav img {
+    padding: 0px 50px;
+    width: 8%;
+    height: 5%;
     margin-top: 20px;
-    padding: 0px 20px;
-    border: 1px solid white;
-    background-color: black;
 }
 
-// Nav Link
+// Nav Link Padding
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+// Nav Link NavBar
 .nav-link {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 15px 25px;
-    font-size: 15px;
-    color: white;
+    font-size: 14px;
+    color: white !important;
     text-transform: uppercase;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
@@ -49,9 +70,16 @@ nav {
     }
 }
 
+// Carousel Images
+.carousel-item img {
+    opacity: 20%;
+    height: 100vh;
+    width: 100%;
+}
+
 // Carousel Caption
 .carousel-caption {
-    margin-bottom: 6em;
+    margin-bottom: 10em;
     margin-right: 2em;
 }
 
@@ -61,17 +89,25 @@ nav {
     margin-bottom: 1.5em;
     font-size: 70px;
     white-space: pre-line;
+
+    // Animation
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 // Carousel Button
 .carousel-caption button {
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 18px 30px;
     border-radius: 30px;
     margin: 10px;
+
+    // Animation
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
 }
 
-// Carousel Indicators
+// Carousel Indicators Circle
 .carousel-indicators li {
     border-radius: 50%;
     width: 20px;
@@ -79,6 +115,7 @@ nav {
     margin-bottom: 30px;
 }
 
+// Bottom Decoration Under Carousel
 .bottomDecoration {
     position: absolute;
     bottom: 0;
@@ -87,3 +124,9 @@ nav {
     width: 100%;
     height: 15px;
 }
+
+// Media Query NavBar
+
+// sm >= 576 px
+// md >= 768 px
+// lg >= 992 px

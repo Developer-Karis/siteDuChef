@@ -18,3 +18,15 @@
         margin-top: -20px;
     }
 }
+
+// Media Query NavBar
+
+// sm >= 576 px
+// md >= 768 px
+// lg >= 992 px
+
+@media (min-width: 300px) and (max-width: 576px) {
+    .contact {
+        width: 100%;
+    }
+}

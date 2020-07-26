@@ -9,7 +9,7 @@
         color: white;
     }
     span {
-        font-size: 60px; 
+        font-size: 60px;
     }
 }
 
@@ -36,6 +36,9 @@
 
 .test1 {
     margin: 15px;
+    &:hover {
+        cursor: pointer;
+    }
     img {
         width: 100%;
     }

@@ -79,3 +79,20 @@ select {
         font-weight: bold;
     }
 }
+
+// Blog Hover Box
+.box {
+    transition: box-shadow 0.5s;
+    margin: 0;
+    padding: 0;
+    &:hover {
+        box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        background: #fff;
+        cursor: pointer;
+    }
+    img {
+        width: 100%;
+    }
+}
