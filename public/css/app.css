@@ -9701,14 +9701,14 @@ body {
 }
 
 .nav-item {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .navbar-nav img {
-  padding: 0px 50px;
-  width: 8%;
-  height: 5%;
-  margin-top: 20px;
+  padding: 0px 30px;
+  width: 110px;
+  height: 60px;
+  margin-top: 8px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
