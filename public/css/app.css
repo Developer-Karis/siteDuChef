@@ -9692,8 +9692,8 @@ body {
 
 .navbar-nav {
   position: fixed;
-  z-index: 1;
-  margin-top: 30px;
+  z-index: 99;
+  margin-top: 65px;
   width: 100%;
   display: flex;
   justify-content: center;
